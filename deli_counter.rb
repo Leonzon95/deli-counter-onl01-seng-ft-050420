@@ -19,4 +19,3 @@ def take_a_number(line, name)
     if index == line.length - 1 
       puts "Welcome, #{name}. You are numer #{index} in line "
   end
-end
