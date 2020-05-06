@@ -15,11 +15,7 @@ end
 
 def take_a_number(line, name)
   line << name
-  line.each_with_index do |name, index|
-    if index == line.length - 1 
-      puts "Welcome, #{name}. You are number #{index + 1} in line."
-   end
- end
+  puts "Welcome, #{name}. You are number #{line.length - 1} in line."
 end
 
 
