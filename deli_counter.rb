@@ -16,6 +16,7 @@ end
 def take_a_number(line, name)
   line << name
   line.each_with_index do |name, index|
-    index == line.length - 1 ? puts "Welcome, #{name}. You are numer #{index} in line "
+    if index == line.length - 1 
+      puts "Welcome, #{name}. You are numer #{index} in line "
   end
 end
