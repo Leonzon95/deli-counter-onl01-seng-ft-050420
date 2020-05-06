@@ -13,4 +13,3 @@ def line(line)
   end
 end
 
-take_a_number(line, name)
