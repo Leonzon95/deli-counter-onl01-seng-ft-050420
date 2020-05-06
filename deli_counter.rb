@@ -24,6 +24,7 @@ def now_serving(line)
   else
     line.shift
     
+    
   
 
  
